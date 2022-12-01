@@ -50,7 +50,7 @@ topBtn.addEventListener("click", () => {
 });
 
 window.addEventListener("scroll", () => {
- if (window.pageYOffset >= 1200) {
+ if (window.pageYOffset >= 800) {
   topBtn.classList.toggle("hidden");
  } else if (window.pageYOffset <= 1190) {
   topBtn.classList.add("hidden");
