@@ -13,7 +13,7 @@ First Chingu solo project.
 
 ## Demo
 
-Live link: 
+Live link: https://tickyclone.netlify.app/
 
 
 
