@@ -1,0 +1,35 @@
+@import url(/project/style.css);
+
+footer {
+ display: flex;
+ flex-direction: column;
+ background-color: var(--nav-bar);
+ box-sizing: border-box;
+ height: 100px ;
+ justify-content: center;
+ align-items: center;
+ color: #ffffffbf;
+ font-size: 13.2px;
+ font-weight: 300;
+ line-height: 2;
+}
+
+footer a {
+ color: #ffffffbf;
+}
+
+.scroll-btn {
+ position: fixed;
+ right: 0;
+ bottom: 0;
+ background-color: var(--goldenrod);
+ padding: 7px;
+ margin: 15px;
+ height: 35px;
+ width: 35px;
+ border-radius: 5px;
+}
+
+.hidden {
+ display: none;
+}

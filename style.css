@@ -1,0 +1,69 @@
+@font-face {
+ font-family: 'Signika300';
+ src: url(/project/assets/fonts/Signika-Light.ttf);
+}
+
+@font-face {
+ font-family: 'Signika600';
+ src: url(/project/assets/fonts/Signika-SemiBold.ttf);
+}
+
+:root {
+ /* COLOURS */ 
+
+ --nav-bar: #40596B;
+ --baby-blue: #55C0EC;
+ --lime-green: #90DDAA;
+ --black: #000000;
+ --sun-yellow: 	#FFFF00;
+ --goldenrod: 	#FFD05A;
+ --offwhite-grey: 	#FAFAFA;
+ --white: #FFFFFF;
+
+/* FONT using 300 and 600 font-weights */
+
+--font-300: 'Signika300';
+--font-600: 'Signika600';
+}
+
+* {
+ font-family: var(--font-300); 
+ margin: 0;
+ padding: 0;
+}
+
+.nav-bar {
+ display: flex;
+ justify-content: center;
+ background-color: #40596B;
+ height: 1.5em;
+ align-items: center;
+ padding: 20px 0;
+}
+
+.nav-bar ul {
+ display: flex;
+ justify-content: center;
+ list-style-type: none;
+}
+
+.nav-bar ul li {
+ margin: 0 8px;
+ font-family: var(--font-300);
+ color: #FFD05A;
+ font-size: 1.2em;
+}
+
+.nav-bar li:hover {
+ cursor: pointer;
+ color: var(--white);
+}
+
+nav a {
+ text-decoration: none;
+ color: var(--goldenrod);
+}
+
+nav a:hover {
+ color: white;
+}

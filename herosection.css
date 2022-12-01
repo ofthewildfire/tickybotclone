@@ -1,0 +1,95 @@
+@import url(/project/style.css);
+
+.hero-section {
+ display: flex;
+ background-color: var(--baby-blue);
+ flex-wrap: wrap; 
+ padding-bottom: 35px;
+}
+
+.hero-div-flex {
+ display: flex;
+ flex-direction: column;
+ margin: 35px auto;
+ align-items: center;
+ justify-content: space-evenly;
+
+}
+
+#hero-option-1 {
+ text-align: center;
+}
+
+.hero-title {
+ font-size: 5.4rem;
+ font-family: var(--font-300);
+ font-weight: 300;
+ color: rgba(0, 0, 0, .65);
+ margin-bottom: 0;
+}
+
+.hero-title span {
+ font-weight: 600;
+}
+
+#hero-option-1 p {
+ color: var(--white);
+ font-size: 25px;
+ margin: 10px 0;
+ padding: 0 85px;
+}
+
+
+/* button */ 
+
+
+.btn {
+ display: flex;
+ height: 65px;
+ width: 300px;
+ align-items: center;
+ justify-content: space-between;
+ font-size: 1.7rem;
+ border: none;
+ border-radius: 5px;
+ padding: 0 50px 0 55px;
+ color: var(--nav-bar);
+ background-color: white;
+ margin: 15px 0 0 0;
+}
+
+.btn span {
+ font-family: var(--font-600);
+}
+
+.top-btn-slack-logo {
+ height:40px;
+ width: 40px;
+}
+
+.btn:hover {
+ /* background-color: var(--offwhite-grey);  */
+ background-color: var(--offwhite-grey);
+ transform: scale(1.02);
+ transition: transform .5s ease-in;
+}
+
+.top-btn-slack-logo:hover {
+ transform: rotate(15deg);
+}
+
+.logo-hover {
+ transform: rotate(15deg);
+}
+
+.hero-image {
+ display: flex;
+ height: auto;
+ margin: 25px auto;
+ align-items: center;
+ justify-content: center;
+}
+
+
+
+
